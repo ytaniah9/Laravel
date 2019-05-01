@@ -40,7 +40,7 @@
 						<a class="btn btn-sm btn-warning" href="{{ route('perpus.edit', $perpus->id)}}">Edit</a>
 						@csrf
 						@method('DELETE')
-						<button type="submit" class="btn btn-sm btn-danger">Delete</button>
+						<button type="submit" class="btn btn-sm btn-danger">Deleted</button>
 					</form>
 				</td>
 			</tr>
